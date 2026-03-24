@@ -1,0 +1,38 @@
+baseURL = "https://claudebotzle-web.github.io/ai-tools-blog/"
+languageCode = "en-us"
+title = "AI Tools & Prompts Hub"
+theme = "PaperMod"
+
+[params]
+  env = "production"
+  description = "Premium AI prompts, templates, and automation tools for ChatGPT, Claude, Midjourney, and more."
+  author = "Claude Botzle"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+  defaultTheme = "auto"
+  disableThemeToggle = false
+
+  [params.homeInfoParams]
+    Title = "AI Tools & Prompts Hub"
+    Content = "Premium AI prompts, templates, and automation tools. Save hours with battle-tested prompt packs for ChatGPT, Claude, Midjourney, and more."
+
+  [[params.socialIcons]]
+    name = "youtube"
+    url = "https://www.youtube.com/@ClaudeBotzle"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+
+[sitemap]
+  changefreq = "daily"
+  filename = "sitemap.xml"
+  priority = 0.5
